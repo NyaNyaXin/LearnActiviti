@@ -17,7 +17,7 @@ public class SaveGroup {
 			//设置组的一些属性
 			group.setName("Group_"+i);
 			group.setType("TYPE_"+i);
-			//保存
+			//保存 
 			identityService.saveGroup(group);
 		}
 		defaultProcessEngine.close();
